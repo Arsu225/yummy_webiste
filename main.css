@@ -1,0 +1,68 @@
+.testi-client .swiper-pagination-bullet:only-child {
+    display: block !important;
+}
+
+@media screen and (max-width: 1024px) {
+    .work-tab .elementor-widget-tabs .elementor-tabs-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) !important;
+        gap: 10px;
+        margin: 0px 40px;
+    }
+}
+
+/* duumy */
+
+.work-tab .elementor-tab-desktop-title::after {
+    content: "1";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background: green;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+    display: none;
+}
+
+.work-tab div#elementor-tab-title-9021::after {
+    content: "6";
+    position: absolute;
+    width: 35px;
+    height: 20px;
+    background: green;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+    display: none;
+
+}
+
+
+
+.work-tab div#elementor-tab-title-9021:hover::after {
+    display: block;
+
+}
+
+
+.work-tab .elementor-tab-desktop-title:hover::after {
+    display: block;
+}
+
+
+.work-tab .elementor-tab-title.elementor-active,
+.elementor-19 .elementor-element.elementor-element-560a1b5 .elementor-tab-title.elementor-active a {
+    display: none !important;
+}
+
+
+.work-tab .elementor-tab-desktop-title {
+    position: relative;
+}
